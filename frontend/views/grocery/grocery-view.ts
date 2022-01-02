@@ -9,8 +9,8 @@ import '@vaadin/vaadin-lumo-styles/spacing';
 import { View } from '../../views/view';
 import { Binder, field } from '@vaadin/form';
 import { getGroceries, save } from '../../generated/GroceryEndpoint';
-import GroceryItem from 'Frontend/generated/com/example/application/GroceryItem';
-import GroceryItemModel from 'Frontend/generated/com/example/application/GroceryItemModel';
+import GroceryItem from 'Frontend/generated/com/awas/application/GroceryItem';
+import GroceryItemModel from 'Frontend/generated/com/awas/application/GroceryItemModel';
 
 @customElement('grocery-view')
 export class GroceryView extends View {

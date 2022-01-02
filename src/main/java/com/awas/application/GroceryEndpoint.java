@@ -1,4 +1,4 @@
-package com.example.application;
+package com.awas.application;
 
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import com.vaadin.fusion.Endpoint;
